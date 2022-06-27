@@ -63,6 +63,7 @@ btn.addEventListener('click', () => {
         btn.innerText = "Set alarm"
         alarmIsSet = false
         ringtone.pause()
+        ringtone.currentTime = 0
         image.classList.remove('image-shake')
     } else {
 
