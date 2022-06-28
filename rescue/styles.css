@@ -27,6 +27,7 @@ body {
     align-items: center;
     width: fit-content;
     height: 600px;
+    margin: 15px;
 }
 
 .title-text {
